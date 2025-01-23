@@ -77,10 +77,10 @@ const getWeatherData = async () => {
     temperatureEl.innerHTML = `${main.temp}&#176;`;
     minTempEl.innerHTML = `Min: ${main.temp_min.toFixed()}&#176;`;
     maxTempEl.innerHTML = `Max: ${main.temp_max.toFixed()}&#176;`;
-    feelsLikeEl.innerHTML = `Feels Like: ${main.feels_like.toFixed(2)}&#176;`;
-    humidityEl.innerHTML = `Humidity: ${main.humidity}%`;
-    windEl.innerHTML = `Wind: ${wind.speed} m/s`;
-    pressureEl.innerHTML = `Pressure: ${main.pressure} hPa`;
+    feelsLikeEl.innerHTML = `${main.feels_like.toFixed(2)}&#176;`;
+    humidityEl.innerHTML = `${main.humidity}%`;
+    windEl.innerHTML = `${wind.speed} m/s`;
+    pressureEl.innerHTML = `${main.pressure} hPa`;
 
     feedbackEl.textContent = ""; // Clear feedback on success
   } catch (error) {
