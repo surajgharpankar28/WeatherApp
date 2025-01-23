@@ -2,8 +2,7 @@
 
 A simple weather app that fetches current weather information using the OpenWeather API. Built with HTML, CSS, and JavaScript, this app allows users to check weather details for any city worldwide.
 
-Weather App - Checkout the demo here[](https://weather-app-ssg.vercel.app/) 
-
+[Weather App Live Demo](https://weather-app-ssg.vercel.app/) 
 ## Features
 
 - Displays current weather information, including temperature, humidity, wind speed, and weather conditions.
@@ -57,3 +56,6 @@ Feel free to fork the repository, create a new branch, and submit a pull request
 This project is licensed under the MIT License.
 
 ---
+
+
+
